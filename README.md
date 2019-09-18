@@ -6,7 +6,7 @@ Presentation page: https://CharlottePhillipss.github.io/CS3366_HW1
 
 GitHub repository: https://github.com/CharlottePhillipss/CS3366_HW1
 
-Demo: https://CharlottePhillips.github.io/CS3366_HW1/Elevator.html
+Demo: https://CharlottePhillipss.github.io/CS3366_HW1/Elevator.html
 
 
 ![](ezgif.com-video-to-gif.gif)
