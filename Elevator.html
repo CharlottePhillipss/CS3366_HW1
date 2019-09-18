@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Elevator Interface</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="Elevator_CSS.css">
+	</head>
+
+	<body>
+		<div class="floor">
+			<!--#D81B1B-->
+			<h1 id="sign">You are on the 1st Floor</h1>
+		</div>
+		<div class="button" id="button4">
+			<h1>4
+			<button type="button" onclick="buttonFour()">Button</button></h1>
+			<script>
+				function buttonFour() {
+ 					document.getElementById("sign").innerHTML = "You are on the 4th floor";
+					document.getElementById("button4").style.backgroundColor = "red";
+					document.getElementById("button3").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button2").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button1").style.backgroundColor = "#C6E2DE";
+				}
+			</script>
+		</div>
+		<div class="emergency">
+			<img src="phone.png">
+			<button type="phoneCall" onclick="help()">Button</button>
+			<script>
+				function help() {
+					document.getElementById("phoneCall").style.color = "red";
+				}
+			</script>
+		</div>
+		<div class="button" id="button3">
+			<h1>3
+			<button type="button" onclick="buttonThree()">Button</button></h1>
+			<script>
+				function buttonThree() {
+ 					document.getElementById("sign").innerHTML = "You are on the 3rd floor";
+					document.getElementById("button3").style.backgroundColor = "red";
+					document.getElementById("button4").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button2").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button1").style.backgroundColor = "#C6E2DE";
+				}
+			</script>
+		</div>
+		<div class="bell">
+			<img src="bell.png">
+			<button>Button</button>
+		</div>
+		<div class="button" id="button2">
+			<h1>2
+			<button type="button" onclick="buttonTwo()">Button</button></h1>
+			<script>
+				function buttonTwo() {
+ 					document.getElementById("sign").innerHTML = "You are on the 2nd floor";
+					document.getElementById("button2").style.backgroundColor = "red";
+					document.getElementById("button4").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button3").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button1").style.backgroundColor = "#C6E2DE";
+				}
+			</script>
+		</div>
+		<div class="door">
+			<img src="dooropen.png">
+			<button>Button</button>
+		</div>
+		<div class="button" id="button1">
+			<h1>1
+			<button type="button" onclick="buttonOne()">Button</button></h1>
+			<script>
+				function buttonOne() {
+					document.getElementById("sign").innerHTML = "You are on the 1st floor";
+					document.getElementById("button1").style.backgroundColor = "red";
+					document.getElementById("button4").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button3").style.backgroundColor = "#C6E2DE";
+					document.getElementById("button2").style.backgroundColor = "#C6E2DE";
+				}
+			</script>
+		</div>
+		<div class="door">
+			<img src="doorclose.png">
+			<button>Button</button>
+		</div>
+	</body>
+</html>
