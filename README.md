@@ -1,5 +1,7 @@
 # CS3366_HW1
 
+![](ezgif.com-video-to-gif.gif)
+
 C:
 
 The biggest issue with this elevator is the number placement. The ordering of the numbers listed seems unintuitive and more random, which could potentially confuse users. Also, the emergency call button is not as clearly defined as it could be. It appears to be the roughly the same size, shape, and color as the other buttons. If there is an instance in which a user is having a medical emergency and are suffering from confusion, they may not be able to tell from a glance which button is the emergency button.
